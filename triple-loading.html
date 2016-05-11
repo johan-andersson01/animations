@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        body,html {
+            height:100%;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ani {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:30px;
+            width:30px;
+        }
+        
+        #box {
+        display:flex;
+        justify-content: center;
+        width:75%;
+        height:75%;
+        position: relative;
+            
+        -webkit-animation-name: std;
+        animation-name: std;
+        -webkit-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+        -webkit-animation-duration:3s;
+        animation-duration:3s;
+        }
+        
+        #box #box {
+        top:30px;
+        }
+        
+        @-webkit-keyframes std {
+            0% {border-radius: 0%; background: red; transform: rotate(0deg)}
+            50% {border-radius: 50%; background: pink; transform: rotate(180deg)}
+            100% {border-radius: 0%; background: red; transform: rotate(360deg)}
+        }
+        
+        @keyframes std {
+            0% {border-radius: 0%; background: red; transform: rotate(0deg)}
+            50% {border-radius: 50%; background: pink; transform: rotate(180deg)}
+            100% {border-radius: 0%; background: red; transform: rotate(360deg)}
+        }
+        
+        
+    </style>
+    </head>
+<body>
+    <div class="ani">
+        <div id="box">
+            <div id="box">
+                <div id="box">
+                    <div id="box">
+                        <div id="box">
+                            <div id="box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
