@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        body,html {
+            height:100%;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            overflow:hidden;
+        }
+        
+        
+        .bg {
+            width:100px;
+            height:350px;
+            justify-content: center;
+            border-radius: 50%;
+        
+        -webkit-animation-name: controt;
+        animation-name: controt;
+        -webkit-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+        -webkit-animation-duration:7s;
+        animation-duration:7s;
+        }
+        }
+        
+        .container {
+             justify-content: center;
+        width:200px;
+        height:200px;
+        -webkit-animation-name: controt;
+        animation-name: controt;
+        -webkit-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+        -webkit-animation-duration:10s;
+        animation-duration:10s;
+        }
+        .ani {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:30px;
+            width:30px;
+
+        }
+        
+        #box {
+            border-radius:   50%;
+        display:flex;
+        justify-content: center;
+        width:75%;
+        height:75%;
+        position: relative;
+            
+        -webkit-animation-name: std;
+        animation-name: std;
+        -webkit-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+        -webkit-animation-duration:3s;
+        animation-duration:15ororbit
+            s;
+        }
+        
+        #box #box {
+        top:30px;
+        }
+        
+        @-webkit-keyframes std {
+            0% { background: blue; transform: rotate(0deg)}
+            50% { background: green; transform: rotate(360deg)}
+            100% { background: blue; transform: rotate(720deg)}
+        }
+        
+        @keyframes std {
+            0% { background: blue; transform: rotate(0deg)}
+            25% { background: orange; transform: rotate(270deg)}
+            50% { background: blue; transform: rotate(180deg)}
+            75% { background: orange; transform: rotate(450deg)}
+            100% { background: blue; transform: rotate(360deg)}
+        }
+        
+                @-webkit-keyframes controt {
+            0% {transform: rotate(0deg;)}
+            100% {transform: rotate(360deg)}
+        }
+        
+        @keyframes controt {
+            0% {transform: rotate(0deg;)}
+            100% {transform: rotate(360deg)}
+        }
+        
+        
+    </style>
+    </head>
+<body>
+<div class="bg">
+<div class="container">
+    <div class="ani">
+        <div id="box">
+            <div id="box">
+                <div id="box">
+                    <div id="box">
+                        <div id="box">
+                            <div id="box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+</div>
+</body>
+</html>
