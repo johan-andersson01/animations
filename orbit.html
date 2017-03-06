@@ -11,14 +11,14 @@
             align-items: center;
             overflow:hidden;
         }
-        
-        
+
+
         .bg {
             width:100px;
             height:350px;
             justify-content: center;
             border-radius: 50%;
-        
+
         -webkit-animation-name: controt;
         animation-name: controt;
         -webkit-animation-iteration-count:infinite;
@@ -26,8 +26,8 @@
         -webkit-animation-duration:7s;
         animation-duration:7s;
         }
-        }
         
+
         .container {
              justify-content: center;
         width:200px;
@@ -47,7 +47,7 @@
             width:30px;
 
         }
-        
+
         #box {
             border-radius:   50%;
         display:flex;
@@ -55,7 +55,7 @@
         width:75%;
         height:75%;
         position: relative;
-            
+
         -webkit-animation-name: std;
         animation-name: std;
         -webkit-animation-iteration-count:infinite;
@@ -63,17 +63,17 @@
         -webkit-animation-duration:15s;
         animation-duration:15s;
         }
-        
+
         #box #box {
         top:30px;
         }
-        
+
         @-webkit-keyframes std {
             0% { background: blue; transform: rotate(0deg)}
             50% { background: green; transform: rotate(360deg)}
             100% { background: blue; transform: rotate(720deg)}
         }
-        
+
         @keyframes std {
             0% { background: blue; transform: rotate(0deg)}
             25% { background: orange; transform: rotate(270deg)}
@@ -81,18 +81,18 @@
             75% { background: orange; transform: rotate(450deg)}
             100% { background: blue; transform: rotate(360deg)}
         }
-        
+
                 @-webkit-keyframes controt {
             0% {transform: rotate(0deg;)}
             100% {transform: rotate(360deg)}
         }
-        
+
         @keyframes controt {
             0% {transform: rotate(0deg;)}
             100% {transform: rotate(360deg)}
         }
-        
-        
+
+
     </style>
     </head>
 <body>
