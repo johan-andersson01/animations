@@ -1,5 +1,6 @@
-// Based on 
-
+/* Based on CodingTrain:
+https://github.com/CodingTrain/Rainbow-Code/tree/master/challenges/CC_14_FractalTree
+*/
 var init_length = 80;
 var count = 50;
 var flip = -1;
